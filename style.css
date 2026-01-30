@@ -135,6 +135,7 @@ min-height:800px; /* or use a fixed height if appropriate */
                 display: flex;
                 text-align:center;
                 justify-content: center;
+               
           }
           .top.btn{
                 border-radius:11px;
@@ -1215,7 +1216,7 @@ section{
  .hero-info{
         display:flex;
        flex-direction:column;
-        max-width:800px;
+        max-width:900px;
         width:100%;
         position:absolute;
         top:20%;
@@ -1227,7 +1228,7 @@ section{
 .mylogo{
         color:var(--info-paragraph-color);
         font-size:2rem;
-      
+        
         text-transform:uppercase;
         font-weight:900;
         font-family:Montserrat;
@@ -1531,7 +1532,7 @@ h4{
  }
  .main-title{
         color:var(--white);
-        font-size:4rem;
+        font-size:5rem;
         font-weight: 800;
         margin-bottom:1rem;
         text-transform:uppercase;
@@ -1736,11 +1737,12 @@ h4{
           }
 
           header{
-                
+               
+             
                 position:sticky;
                 top:0;
-                 
-                
+               
+               
                 z-index:999;
           }
          .search-section{
